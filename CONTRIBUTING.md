@@ -85,6 +85,38 @@ go test -v -race -coverprofile=coverage.out ./...
 docker-compose up --build
 ```
 
+## Development
+
+### Running Tests
+
+```bash
+make test
+```
+
+### Building
+
+```bash
+make build
+```
+
+### Linting
+
+```bash
+make lint
+```
+
+### Formatting
+
+```bash
+make fmt
+```
+
+### Running Locally
+
+```bash
+make dev
+```
+
 ## Coding Standards
 
 ### Go Style
@@ -155,5 +187,9 @@ If you have questions, please:
 - Open a discussion on GitHub
 - Check existing issues and PRs
 - Review the [README.md](README.md)
+
+## Additional Resources
+
+For user-facing documentation, installation guides, and usage examples, see [README.md](README.md).
 
 Thank you for contributing!

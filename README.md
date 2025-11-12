@@ -16,11 +16,11 @@ MCP Go Server is a Model Context Protocol (MCP) server implementation designed t
 - [Quick Reference](#quick-reference)
 - [Prerequisites](#prerequisites)
 - [Installation Methods](#installation-methods)
-- [Platform-Specific Guides](#platform-specific-guides)
+- [Platform-Specific Guides](#platform-specific-guides) (36 platforms - click to expand)
 - [Configuration](#configuration)
-- [Troubleshooting](#troubleshooting)
+- [Troubleshooting](#troubleshooting) (click to expand)
 - [FAQ](#faq)
-- [Available Tools](#available-tools)
+- [Available Tools](#available-tools) (click to expand for detailed docs)
   - [Code Execution Tools](#code-execution-tools)
   - [Go Tools](#go-tools)
   - [Optimization Tools](#optimization-tools)
@@ -29,13 +29,12 @@ MCP Go Server is a Model Context Protocol (MCP) server implementation designed t
   - [LSP Tools](#lsp-tools)
 - [Available Resources](#available-resources)
 - [Available Prompts](#available-prompts)
-- [Usage Examples](#usage-examples)
+- [Usage Examples](#usage-examples) (click to expand)
 - [Resources Usage](#resources-usage)
-- [Advanced Patterns](#advanced-patterns)
-- [Development](#development)
+- [Advanced Patterns](#advanced-patterns) (click to expand)
 - [Security Considerations](#security-considerations)
 - [License](#license)
-- [Contributing](#contributing)
+- [Contributing](#contributing) (see [CONTRIBUTING.md](CONTRIBUTING.md) for development guide)
 - [Changelog](#changelog)
 
 
@@ -429,9 +428,8 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 | VS Code | `.vscode/settings.json` or User Settings | ⭐ Easy |
 | Docker | `docker-compose.yml` or command line | ⭐⭐ Medium |
 
-### 1. Claude Desktop
-
-**✅ Most popular desktop app**
+<details>
+<summary><strong>1. Claude Desktop</strong> - ⭐ Easy - Most popular desktop app</summary>
 
 **Prerequisites:**
 - Claude Desktop installed
@@ -477,9 +475,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 - Verify the binary path is correct
 - Check Claude Desktop logs for errors
 
-### 2. Cursor
+</details>
 
-**✅ AI-powered code editor**
+<details>
+<summary><strong>2. Cursor</strong> - ⭐ Easy - AI-powered code editor</summary>
 
 **Prerequisites:**
 - Cursor installed
@@ -521,9 +520,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 - Check that MCP tools are available in the command palette
 - Try using Go-related AI features
 
-### 3. VS Code
+</details>
 
-**✅ Popular code editor with MCP support**
+<details>
+<summary><strong>3. VS Code</strong> - ⭐ Easy - Popular code editor with MCP support</summary>
 
 **Prerequisites:**
 - VS Code with MCP extension installed
@@ -566,9 +566,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **💡 Tip:** For workspace settings, create `.vscode/settings.json` in your project root
 
-### 4. Cline (VS Code Extension)
+</details>
 
-**✅ VS Code extension for AI coding**
+<details>
+<summary><strong>4. Cline (VS Code Extension)</strong> - ⭐ Easy - VS Code extension for AI coding</summary>
 
 **Prerequisites:**
 - VS Code with Cline extension installed
@@ -598,9 +599,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **✅ Verify:** Cline should recognize MCP Go tools
 
-### 5. Windsurf
+</details>
 
-**✅ AI-powered IDE**
+<details>
+<summary><strong>5. Windsurf</strong> - ⭐ Easy - AI-powered IDE</summary>
 
 **Prerequisites:**
 - Windsurf installed
@@ -630,9 +632,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **✅ Verify:** MCP tools available in Windsurf
 
-### 6. Zed
+</details>
 
-**✅ Modern code editor**
+<details>
+<summary><strong>6. Zed</strong> - ⭐ Easy - Modern code editor</summary>
 
 **Prerequisites:**
 - Zed installed
@@ -662,9 +665,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **✅ Verify:** MCP integration working
 
-### 7. JetBrains AI Assistant
+</details>
 
-**✅ Works with all JetBrains IDEs (IntelliJ, GoLand, etc.)**
+<details>
+<summary><strong>7. JetBrains AI Assistant</strong> - ⭐⭐ Medium - Works with all JetBrains IDEs</summary>
 
 **Prerequisites:**
 - JetBrains IDE with AI Assistant enabled
@@ -696,9 +700,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **💡 Tip:** Works with IntelliJ IDEA, GoLand, WebStorm, PyCharm, etc.
 
-### 8. Perplexity Desktop
+</details>
 
-**✅ Desktop AI assistant**
+<details>
+<summary><strong>8. Perplexity Desktop</strong> - ⭐ Easy - Desktop AI assistant</summary>
 
 **Prerequisites:**
 - Perplexity Desktop installed
@@ -725,9 +730,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **✅ Verify:** Perplexity can access Go tools
 
-### 9. Amazon Q Developer CLI
+</details>
 
-**✅ AWS AI coding assistant CLI**
+<details>
+<summary><strong>9. Amazon Q Developer CLI</strong> - ⭐ Easy - AWS AI coding assistant CLI</summary>
 
 **Prerequisites:**
 - Amazon Q Developer CLI installed
@@ -754,9 +760,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **✅ Verify:** Run `aws-q` commands with Go support
 
-### 10. Smithery
+</details>
 
-**✅ MCP server management tool**
+<details>
+<summary><strong>10. Smithery</strong> - ⭐ Easy - MCP server management tool</summary>
 
 **Prerequisites:**
 - Smithery installed
@@ -783,9 +790,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **✅ Verify:** Server appears in Smithery
 
-### 11. Claude Code CLI
+</details>
 
-**✅ Command-line Claude interface**
+<details>
+<summary><strong>11. Claude Code CLI</strong> - ⭐ Easy - Command-line Claude interface</summary>
 
 **Prerequisites:**
 - Claude Code CLI installed
@@ -812,9 +820,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **✅ Verify:** CLI can use Go tools
 
-### 12. Amp
+</details>
 
-**✅ AI coding assistant**
+<details>
+<summary><strong>12. Amp</strong> - ⭐ Easy - AI coding assistant</summary>
 
 **Prerequisites:**
 - Amp installed
@@ -841,9 +850,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **✅ Verify:** Amp integration working
 
-### 13. Warp Terminal
+</details>
 
-**✅ Modern terminal with AI**
+<details>
+<summary><strong>13. Warp Terminal</strong> - ⭐ Easy - Modern terminal with AI</summary>
 
 **Prerequisites:**
 - Warp Terminal installed
@@ -872,9 +882,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **✅ Verify:** AI features in Warp can use Go tools
 
-### 14. Copilot Coding Agent
+</details>
 
-**✅ GitHub Copilot agent**
+<details>
+<summary><strong>14. Copilot Coding Agent</strong> - ⭐ Easy - GitHub Copilot agent</summary>
 
 **Prerequisites:**
 - Copilot Coding Agent installed
@@ -901,9 +912,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **✅ Verify:** Copilot agent can use Go tools
 
-### 15. Copilot CLI
+</details>
 
-**✅ GitHub Copilot command line**
+<details>
+<summary><strong>15. Copilot CLI</strong> - ⭐ Easy - GitHub Copilot command line</summary>
 
 **Prerequisites:**
 - GitHub Copilot CLI installed
@@ -930,9 +942,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **✅ Verify:** CLI commands work with Go
 
-### 16. LM Studio
+</details>
 
-**✅ Local LLM interface**
+<details>
+<summary><strong>16. LM Studio</strong> - ⭐ Easy - Local LLM interface</summary>
 
 **Prerequisites:**
 - LM Studio installed
@@ -959,9 +972,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **✅ Verify:** LM Studio can use Go tools
 
-### 17. Visual Studio 2022
+</details>
 
-**✅ Microsoft IDE**
+<details>
+<summary><strong>17. Visual Studio 2022</strong> - ⭐⭐ Medium - Microsoft IDE</summary>
 
 **Prerequisites:**
 - Visual Studio 2022 with MCP extension
@@ -982,9 +996,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **✅ Verify:** MCP tools available in Visual Studio
 
-### 18. Roo Code
+</details>
 
-**✅ AI coding assistant**
+<details>
+<summary><strong>18. Roo Code</strong> - ⭐ Easy - AI coding assistant</summary>
 
 **Prerequisites:**
 - Roo Code installed
@@ -1011,9 +1026,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **✅ Verify:** Roo Code integration working
 
-### 19. Gemini CLI
+</details>
 
-**✅ Google Gemini command line**
+<details>
+<summary><strong>19. Gemini CLI</strong> - ⭐ Easy - Google Gemini command line</summary>
 
 **Prerequisites:**
 - Gemini CLI installed
@@ -1040,9 +1056,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **✅ Verify:** Gemini CLI can use Go tools
 
-### 20. Qwen Coder
+</details>
 
-**✅ AI coding assistant**
+<details>
+<summary><strong>20. Qwen Coder</strong> - ⭐ Easy - AI coding assistant</summary>
 
 **Prerequisites:**
 - Qwen Coder installed
@@ -1069,9 +1086,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **✅ Verify:** Qwen Coder integration working
 
-### 21. Opencode
+</details>
 
-**✅ Open-source AI coding tool**
+<details>
+<summary><strong>21. Opencode</strong> - ⭐ Easy - Open-source AI coding tool</summary>
 
 **Prerequisites:**
 - Opencode installed
@@ -1098,9 +1116,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **✅ Verify:** Opencode can use Go tools
 
-### 22. OpenAI Codex
+</details>
 
-**✅ OpenAI coding assistant**
+<details>
+<summary><strong>22. OpenAI Codex</strong> - ⭐ Easy - OpenAI coding assistant</summary>
 
 **Prerequisites:**
 - OpenAI Codex access
@@ -1127,9 +1146,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **✅ Verify:** Codex integration working
 
-### 23. Kiro
+</details>
 
-**✅ AI coding assistant**
+<details>
+<summary><strong>23. Kiro</strong> - ⭐ Easy - AI coding assistant</summary>
 
 **Prerequisites:**
 - Kiro installed
@@ -1156,9 +1176,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **✅ Verify:** Kiro can use Go tools
 
-### 24. Trae
+</details>
 
-**✅ AI development tool**
+<details>
+<summary><strong>24. Trae</strong> - ⭐ Easy - AI development tool</summary>
 
 **Prerequisites:**
 - Trae installed
@@ -1185,9 +1206,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **✅ Verify:** Trae integration working
 
-### 25. Bun Runtime
+</details>
 
-**✅ JavaScript runtime with MCP support**
+<details>
+<summary><strong>25. Bun Runtime</strong> - ⭐ Easy - JavaScript runtime with MCP support</summary>
 
 **Prerequisites:**
 - Bun installed
@@ -1214,9 +1236,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **✅ Verify:** Bun can use MCP Go server
 
-### 26. Deno Runtime
+</details>
 
-**✅ JavaScript/TypeScript runtime**
+<details>
+<summary><strong>26. Deno Runtime</strong> - ⭐ Easy - JavaScript/TypeScript runtime</summary>
 
 **Prerequisites:**
 - Deno installed
@@ -1243,9 +1266,10 @@ Configure MCP Go Server for your platform. Each guide includes step-by-step inst
 
 **✅ Verify:** Deno MCP integration working
 
-### 27. Docker
+</details>
 
-**🔧 Container-based installation**
+<details>
+<summary><strong>27. Docker</strong> - ⭐⭐ Medium - Container-based installation</summary>
 
 **Prerequisites:**
 - Docker installed
@@ -1292,9 +1316,10 @@ docker run --rm ghcr.io/inja-online/golang-mcp:latest mcp-go --version
 
 **💡 Tip:** Use volumes to mount your Go projects into the container
 
-### 28. Desktop Extension (.mcpb)
+</details>
 
-**✅ MCP bundle format for easy installation**
+<details>
+<summary><strong>28. Desktop Extension (.mcpb)</strong> - ⭐ Easy - MCP bundle format for easy installation</summary>
 
 **Prerequisites:**
 - MCP-compatible client that supports `.mcpb` files
@@ -1313,9 +1338,10 @@ docker run --rm ghcr.io/inja-online/golang-mcp:latest mcp-go --version
 
 **💡 Tip:** `.mcpb` files are self-contained bundles with all dependencies
 
-### 29. Windows (Detailed)
+</details>
 
-**✅ Complete Windows installation guide**
+<details>
+<summary><strong>29. Windows (Detailed)</strong> - ⭐ Easy - Complete Windows installation guide</summary>
 
 **Prerequisites:**
 - Windows 10/11
@@ -1352,9 +1378,10 @@ docker run --rm ghcr.io/inja-online/golang-mcp:latest mcp-go --version
 - Check PATH with: `$env:PATH` (PowerShell) or `echo %PATH%` (CMD)
 - Verify file exists: `Test-Path "C:\Program Files\mcp-go\mcp-go.exe"`
 
-### 30. BoltAI
+</details>
 
-**✅ AI coding assistant**
+<details>
+<summary><strong>30. BoltAI</strong> - ⭐ Easy - AI coding assistant</summary>
 
 **Prerequisites:**
 - BoltAI installed
@@ -1381,9 +1408,10 @@ docker run --rm ghcr.io/inja-online/golang-mcp:latest mcp-go --version
 
 **✅ Verify:** BoltAI integration working
 
-### 31. Rovo Dev CLI
+</details>
 
-**✅ Development CLI tool**
+<details>
+<summary><strong>31. Rovo Dev CLI</strong> - ⭐ Easy - Development CLI tool</summary>
 
 **Prerequisites:**
 - Rovo Dev CLI installed
@@ -1410,9 +1438,10 @@ docker run --rm ghcr.io/inja-online/golang-mcp:latest mcp-go --version
 
 **✅ Verify:** Rovo CLI can use Go tools
 
-### 32. Zencoder
+</details>
 
-**✅ AI code generation tool**
+<details>
+<summary><strong>32. Zencoder</strong> - ⭐ Easy - AI code generation tool</summary>
 
 **Prerequisites:**
 - Zencoder installed
@@ -1439,9 +1468,10 @@ docker run --rm ghcr.io/inja-online/golang-mcp:latest mcp-go --version
 
 **✅ Verify:** Zencoder can use Go tools
 
-### 33. Qodo Gen
+</details>
 
-**✅ AI code generator**
+<details>
+<summary><strong>33. Qodo Gen</strong> - ⭐ Easy - AI code generator</summary>
 
 **Prerequisites:**
 - Qodo Gen installed
@@ -1468,9 +1498,10 @@ docker run --rm ghcr.io/inja-online/golang-mcp:latest mcp-go --version
 
 **✅ Verify:** Qodo Gen integration working
 
-### 34. Factory
+</details>
 
-**✅ AI development platform**
+<details>
+<summary><strong>34. Factory</strong> - ⭐ Easy - AI development platform</summary>
 
 **Prerequisites:**
 - Factory installed
@@ -1497,9 +1528,10 @@ docker run --rm ghcr.io/inja-online/golang-mcp:latest mcp-go --version
 
 **✅ Verify:** Factory can use Go tools
 
-### 35. Crush
+</details>
 
-**✅ AI coding assistant**
+<details>
+<summary><strong>35. Crush</strong> - ⭐ Easy - AI coding assistant</summary>
 
 **Prerequisites:**
 - Crush installed
@@ -1526,9 +1558,10 @@ docker run --rm ghcr.io/inja-online/golang-mcp:latest mcp-go --version
 
 **✅ Verify:** Crush integration working
 
-### 36. Augment Code
+</details>
 
-**✅ AI code augmentation tool**
+<details>
+<summary><strong>36. Augment Code</strong> - ⭐ Easy - AI code augmentation tool</summary>
 
 **Prerequisites:**
 - Augment Code installed
@@ -1555,6 +1588,8 @@ docker run --rm ghcr.io/inja-online/golang-mcp:latest mcp-go --version
 
 **✅ Verify:** Augment Code can use Go tools
 
+</details>
+
 ### Standalone Usage
 
 **Run MCP Go Server directly:**
@@ -1567,7 +1602,8 @@ The server communicates via stdio (standard input/output) using JSON-RPC 2.0 pro
 
 **💡 Tip:** Useful for testing or custom integrations
 
-## Troubleshooting
+<details>
+<summary><strong>Troubleshooting</strong> - Common issues and their solutions</summary>
 
 Common issues and their solutions. Use the symptoms to find your problem quickly.
 
@@ -1864,6 +1900,8 @@ Common issues and their solutions. Use the symptoms to find your problem quickly
      - Config file (sanitized)
      - Debug logs
 
+</details>
+
 ## FAQ
 
 Common questions and quick answers.
@@ -1960,6 +1998,9 @@ Common questions and quick answers.
 ## Available Tools
 
 **22 comprehensive tools** for Go development, testing, optimization, and management.
+
+<details>
+<summary><strong>View detailed tool documentation</strong></summary>
 
 ### Code Execution Tools
 
@@ -2759,6 +2800,8 @@ Subscribe to diagnostics published by an LSP session.
 
 This enables receiving diagnostic notifications (errors, warnings, etc.) from the LSP server for the specified workspace.
 
+</details>
+
 ## Available Resources
 
 **📦 8 discovery resources** for exploring your Go workspace and accessing package documentation.
@@ -3091,7 +3134,8 @@ This prompt covers:
 6. Monitoring and logging setup
 7. Post-deployment verification
 
-## Usage Examples
+<details>
+<summary><strong>Usage Examples</strong> - Practical examples and workflows</summary>
 
 This section provides practical, copy-pasteable examples demonstrating common workflows, tool combinations, and real-world scenarios.
 
@@ -3926,7 +3970,10 @@ The resource returns a JSON object with:
 4. Use `write-go-tests` prompt for guidance
 5. Access `go://tests` again to verify new tests
 
-## Advanced Patterns
+</details>
+
+<details>
+<summary><strong>Advanced Patterns</strong> - Complex workflows and best practices</summary>
 
 ### Combining Tools in Complex Workflows
 
@@ -4177,37 +4224,7 @@ When servers behave unexpectedly:
 - Review docs (`go_pkg_docs`) before integration
 - Use `go_mod tidy` regularly to clean up
 
-## Development
-
-### Running Tests
-
-```bash
-make test
-```
-
-### Building
-
-```bash
-make build
-```
-
-### Linting
-
-```bash
-make lint
-```
-
-### Formatting
-
-```bash
-make fmt
-```
-
-### Running Locally
-
-```bash
-make dev
-```
+</details>
 
 ## Security Considerations
 
