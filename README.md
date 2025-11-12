@@ -3,7 +3,7 @@
 [![Go Version](https://img.shields.io/badge/go-1.23+-00ADD8?style=flat-square&logo=go)](https://golang.org)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/inja-online/golang-mcp?style=flat-square)](https://github.com/inja-online/golang-mcp/releases)
-[![CI](https://img.shields.io/github/actions/workflow/status/inja-online/golang-mcp/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/inja-online/golang-mcp/actions)
+[![CI](https://img.shields.io/github/actions/workflow/status/inja-online/golang-mcp/ci.yml?branch=master&style=flat-square&label=CI)](https://github.com/inja-online/golang-mcp/actions)
 [![Contributors](https://img.shields.io/github/contributors/inja-online/golang-mcp?style=flat-square)](https://github.com/inja-online/golang-mcp/graphs/contributors)
 [![Changelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog-blue?style=flat-square)](CHANGELOG.md)
 
