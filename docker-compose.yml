@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  mcp-go:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: mcp-go:v0.0.1
+    container_name: mcp-go-server
+    stdin_open: true
+    tty: true
+    environment:
+      - DISABLE_NOTIFICATIONS=true
+      - DEBUG_MCP=false
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
